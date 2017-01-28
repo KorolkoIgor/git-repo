@@ -1,0 +1,9 @@
+C:\Users\cyperh\Documents\Visual Studio 2015\Projects\Third\Lesson5\ClassWork\Utility\bin\Release\Utility.dll
+C:\Users\cyperh\Documents\Visual Studio 2015\Projects\Third\Lesson5\ClassWork\Utility\bin\Release\Utility.pdb
+C:\Users\cyperh\Documents\Visual Studio 2015\Projects\Third\Lesson5\ClassWork\Utility\obj\Release\Utility.dll
+C:\Users\cyperh\Documents\Visual Studio 2015\Projects\Third\Lesson5\ClassWork\Utility\obj\Release\Utility.pdb
+d:\Epam\ Asp.net MVC\Lesson8\ClassWork\Utility\bin\Release\Utility.dll
+d:\Epam\ Asp.net MVC\Lesson8\ClassWork\Utility\bin\Release\Utility.pdb
+d:\Epam\ Asp.net MVC\Lesson8\ClassWork\Utility\obj\Release\Utility.csprojResolveAssemblyReference.cache
+d:\Epam\ Asp.net MVC\Lesson8\ClassWork\Utility\obj\Release\Utility.dll
+d:\Epam\ Asp.net MVC\Lesson8\ClassWork\Utility\obj\Release\Utility.pdb

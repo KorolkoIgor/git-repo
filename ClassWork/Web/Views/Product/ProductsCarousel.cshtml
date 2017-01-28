@@ -1,0 +1,46 @@
+﻿@using System.Collections;
+@using System.Collections.Generic;
+@using System.Linq;
+@model IEnumerable<DataAccess.Entities.Product>
+@{
+    ViewBag.Title = "ProductsCarousel";
+    var i = 0;
+}
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        @foreach (var item in Enumerable.Range(0, Model.Count()))
+        {
+            <li data-target="#carousel-example-generic" data-slide-to="@item" @(@item == 0 ? "class=\"active\"" : "")></li>
+        }
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        @foreach (var product in Model)
+        {
+            var src = "http://dummyimage.com/1140x240/000/ff6347";
+            <div class="item @(i == 0 ? "active" : "")">
+                
+                <img src="@src" alt="@product.Description">
+                <div class="carousel-caption">
+                    <h3>@product.Name</h3>
+                    <p>@product.Description</p>
+                </div>
+            </div>
+
+            i++;
+        }
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
