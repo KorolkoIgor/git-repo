@@ -1,6 +1,0 @@
-D:\Korolko\ClassroomActivity\Driver\Driver\bin\Debug\Driver.exe.config
-D:\Korolko\ClassroomActivity\Driver\Driver\obj\Debug\Driver.csprojResolveAssemblyReference.cache
-D:\Korolko\ClassroomActivity\Driver\Driver\bin\Debug\Driver.exe
-D:\Korolko\ClassroomActivity\Driver\Driver\bin\Debug\Driver.pdb
-D:\Korolko\ClassroomActivity\Driver\Driver\obj\Debug\Driver.exe
-D:\Korolko\ClassroomActivity\Driver\Driver\obj\Debug\Driver.pdb
